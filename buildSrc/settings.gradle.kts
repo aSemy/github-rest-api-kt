@@ -1,6 +1,6 @@
 @file:Suppress("UnstableApiUsage")
 
-rootProject.name = "github-rest-api-kt"
+rootProject.name = "buildSrc"
 
 pluginManagement {
   repositories {
@@ -16,11 +16,3 @@ dependencyResolutionManagement {
     gradlePluginPortal()
   }
 }
-
-enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
-
-include(
-  ":modules:client",
-  ":modules:client-generator",
-  ":modules:utils",
-)
